@@ -1,0 +1,20 @@
+.card-item {
+  margin: 0 15px;
+  width: 320px;
+}
+
+.ant-card-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.card-item__btns {
+  margin-top: auto;
+
+  display: flex;
+}
+
+.card-item__btns--center {
+  margin: 0 auto;
+}

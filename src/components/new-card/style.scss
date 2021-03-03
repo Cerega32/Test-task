@@ -1,0 +1,40 @@
+.new-card {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #f4f4f4;
+}
+
+.new-card__swatch {
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 50%;
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.new-card__popover {
+  position: absolute;
+  z-Index: 2;
+}
+
+.new-card__cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.new-card__color {
+  height: 14px;
+  border-radius: 2px;
+}
